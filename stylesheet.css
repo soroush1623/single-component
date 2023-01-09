@@ -1,0 +1,253 @@
+.full-screen{
+    width: 100vw;
+    max-height:none;
+    background-color: #E6EFF6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+
+}
+
+.container{
+    width: 90%;
+    height: auto;
+    background-color: white;
+    flex-direction: row;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 
+    'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 100%;
+    border-radius: 0.5rem;
+    margin: 2rem 0;
+    -webkit-box-shadow: 0px 1px 10px 6px rgba(0,0,0,0.2); 
+    box-shadow: 0px 1px 10px 6px rgba(0,0,0,0.2);
+
+
+}
+
+.block-1{
+    padding: 1rem 2rem;
+    width: calc(100% - 4rem);
+    line-height: normal;
+    font-weight: 600;
+
+
+
+}
+
+.title{
+    font-size: 2.2rem;
+    padding: 1rem 0;
+    font-weight: 600;
+    color: #2BB3B1;
+
+
+}
+
+.short-desc{
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    color: #BFDF32;
+    font-weight: 600;
+
+
+
+}
+
+.describtion{
+    padding: 1rem 0;
+    line-height: 2rem;
+    font-size: 1.4rem;
+    color: #BABFC5;
+
+}
+
+.blocl-2-3{
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.block-2{
+    background-color: #2BB3B1;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.mini-title{
+    padding: 1rem 0;
+    color:#E6EFF6;
+    
+}
+
+.price-T{
+    display: flex;
+
+}
+
+.price{
+   
+    padding: 1rem 0;
+    align-self: center;
+    color: white;
+
+
+}
+
+.price-2{
+    color: #BABFC5;
+    align-self: center;
+    margin-left: 2rem;
+    font-weight: 500;
+}
+
+.price-3{
+    color:#E6EFF6;
+    font-weight: 500;
+
+}
+
+.btn{
+    margin: 2rem 0;
+    padding: 1rem ; 
+    font-size: 2rem;
+    background-color: #BFDF32;
+    color:#E6EFF6;
+    border-radius: 0.5rem;
+    -webkit-box-shadow: 0px 1px 10px 2px rgba(0,0,0,0.2); 
+    box-shadow: 0px 1px 10px 2px rgba(0,0,0,0.2);
+    border: #BFDF32;
+    justify-items: center;
+}
+
+.btn:hover{
+    -webkit-box-shadow: 0px 1px 10px 6px rgba(0,0,0,0.2); 
+    box-shadow: 0px 1px 10px 6px rgba(0,0,0,0.2);
+}
+
+.btn:active{
+    background-color: white;
+    color: #BFDF32;
+
+}
+
+.block-3{
+    display:flex;
+    flex-direction: column;
+    padding: 1rem 2rem;
+    background-color: #4ABEBD;
+    border-radius: 0 0 0.5rem 0.5rem;
+}
+
+.why-us{
+    padding: 1rem 0;
+    color:#E6EFF6;
+    font-size: 1.7rem;
+
+
+
+}
+
+.ul{
+    padding: 1rem 0;
+    line-height: 1.9rem;
+    font-size: 1.4rem;
+    color:#E6EFF6;
+    text-decoration: none;
+}
+
+    
+
+
+@media screen and (min-width: 922px){
+    .full-screen{
+        height: 100vh;
+    }
+
+    .container{
+        width: 50%;
+        font-size: 100%;
+    }
+    .block-1{
+        padding: 1rem 3rem;
+        width: calc(100% - 6rem);
+    }
+    
+
+    .blocl-2-3{
+        flex-direction: row;
+    }
+
+    .block-2{
+        width: calc(50% - 4rem);
+        border-radius: 0 0 0 0.5rem;
+        padding: 1rem 2rem 1rem 3rem ;
+    }
+
+    .mini-title{
+        font-size: 1.3rem;
+    }
+
+    .price{
+        font-size: 3rem;
+    }
+    .price-2{
+        color:#E6EFF6;
+        align-self: center;
+        margin-left: 2rem;
+        font-weight: 500;
+        font-size: 1.2rem;
+    }
+    .price-3{
+        font-size: 1.3rem;
+    }
+    .btn{
+        margin: 1.3rem 0;
+        padding: 1rem 0 ; 
+        font-size: 1.4rem;
+        background-color: #BFDF32;
+        color:#E6EFF6;
+        border-radius: 0.5rem;
+        -webkit-box-shadow: 0px 1px 10px 2px rgba(0,0,0,0.2); 
+        box-shadow: 0px 1px 10px 2px rgba(0,0,0,0.2);
+        border: #BFDF32;
+        justify-items: center;
+    }
+
+
+    .block-3{
+        width: calc(50% - 4rem);
+        border-radius: 0 0 0.5rem 0;
+    }
+    .ul{
+        font-size: 1rem;
+        padding: 0 1rem 1 1rem 1rem;
+    }
+    .why-us{
+        padding: 0rem 0 0 0;
+    }
+    .title{
+        font-size: 1.8rem;
+        padding: 1rem 0;
+        font-weight: 600;
+        color: #2BB3B1;
+    }
+    .short-desc{
+        font-size: 1.3rem;
+        padding: 1rem 0 0 0;
+    }
+    .describtion{
+        font-size: 1.2rem;
+
+    } 
+
+
+
+    
+}
